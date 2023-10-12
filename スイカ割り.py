@@ -24,7 +24,7 @@ while (suika_x != player_x) or (suika_y != player_y):
     
     # キー入力に応じて、プレイヤーを移動する
     c = input("s:南に移動 e:東に移動")
-    elif c == "s":
+    if c == "s":
         player_y = player_y + 1
     elif c == "e":
         player_x = player_x + 1
